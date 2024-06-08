@@ -11,8 +11,10 @@ const app = express();
 require("./config/passport")(passport);
 
 //------------ DB Configuration ------------//
-const db =
-  "mongodb+srv://aishwaryagorakhshinde:Aishu@!99!@cluster0.dkbslud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+//const db =
+// "mongodb+srv://aishwaryagorakhshinde:Aishu@!99!@cluster0.dkbslud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+const db = "mongodb+srv://manish79:123321@backend.iawy5ig.mongodb.net/";
 
 //------------ Mongo Connection ------------//
 mongoose
